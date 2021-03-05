@@ -1,0 +1,56 @@
+
+body{
+  font-family: Arial, sans-serif;
+  font-size:15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color:#D5D5D5;
+  }
+.container{
+  width: 100%;
+  margin: auto;
+}
+.header{
+  border-color: #000000;
+  border-style: solid;
+  border-width: medium;
+  background-color: #35424a;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  display: flex;
+	flex:0.5;
+	flex-wrap: wrap;
+	text-align: center;
+	min-height:70px;
+}
+.head1{
+  flex: 1;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.head2{
+  flex: 1;
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+.assignments{
+  border-color: #000000;
+  border-style: solid;
+  border-width: thin;
+}
+.footer{
+  border-color: #000000;
+  border-style: solid;
+  border-width: medium;
+  background-color: #35424a;
+  color: #ffffff;
+}
+.lab-content{
+  border-color: #000000;
+  border-style: solid;
+  border-width: thin;
+}
