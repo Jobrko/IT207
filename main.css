@@ -11,6 +11,11 @@ body{
   width: 100%;
   margin: auto;
 }
+.flex-container{
+  clear: both;
+  display: flex;
+  float: inherit;
+}
 .header{
   border-color: #000000;
   border-style: solid;
@@ -38,19 +43,51 @@ body{
   width: 50%;
 }
 .assignments{
+  max-width: 200px;
+  background-color: #f1f1f1;
   border-color: #000000;
   border-style: solid;
   border-width: thin;
+  text-align: center;
+  padding: 5px;
+  order:1;
+	float: left;
+	flex:30%;
+  left: 0;
+}
+ul{
+  list-style-type: circle;
+}
+li a{
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+}
+li a:hover{
+	background-color: #555;
+	color:white;
 }
 .footer{
+  width: 100%;
   border-color: #000000;
   border-style: solid;
   border-width: medium;
   background-color: #35424a;
   color: #ffffff;
+  bottom: 0;
 }
 .lab-content{
+  float: right;
+  background-color: #D5D5D5;
   border-color: #000000;
   border-style: solid;
   border-width: thin;
+  right: 0;
+  left: 200px;
+}
+.calculator{
+	text-align: left;
+}
+.calculator h3{
+	padding: 0 0;
 }
